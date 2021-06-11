@@ -1,0 +1,99 @@
+h1 {
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 2rem;
+  font-weight: lighter;
+  background: #579480;
+  text-shadow: #579480;
+  padding: 2opx;
+  margin: 20px;
+}
+
+body {
+  text-align: center;
+  background: #acd062;
+  font-size: large;
+}
+
+p {
+  color: #3a1a04;
+  background: cadetblue;
+  text-shadow: brown;
+  border: 20px;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+}
+
+img {
+  border-radius: 60px;
+  padding: 20px;
+  margin-right: 200px;
+}
+
+.show {
+  visibility: visible;
+}
+
+.mouseEvent {
+  border: 6px solid rgb(82, 67, 67);
+  width: 200px;
+  position: absolute;
+  left: 10%;
+  padding: 10px;
+  transform: translateX(-50%);
+  background: cadetblue;
+}
+
+.themeContainer {
+  position: fixed;
+  top: 0;
+}
+
+.theme {
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+}
+
+#dark {
+  background: black;
+}
+#salmon {
+  background: salmon;
+}
+#yellow {
+  background: yellowgreen;
+}
+
+.darkTheme {
+  background: black;
+  color: whitesmoke;
+}
+.salmonTheme {
+  background: salmon;
+  color: black;
+}
+.yellowTheme {
+  background: yellow;
+  color: black;
+}
+
+main {
+  overflow: hidden;
+  height: 100vh;
+}
+
+#quote {
+  position: absolute;
+  top: 200%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2rem;
+
+  font-size: 2rem;
+  border-radius: 10px;
+  transition: 5s;
+  color: whitesmoke;
+  cursor: pointer;
+}

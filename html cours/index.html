@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- je commente mon site internet -->
+    <title>cours html</title>
+    <!-- icone de l'onglet -->
+    <link rel="shortcut icon" href="logoHTML5.png" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Principale titre de mon site</h1>
+      <p>
+        Ceci est un texte trés basique
+        <em>mon premier site web écrit avec le langage html</em>
+        <strong>vers plus de succés!</strong
+        ><span> les éléments en span ne reviennent pas à la ligne</span>
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+        accusamus, magnam, provident,<br />
+        deleniti alias ullam perferendis laboriosam ipsa neque unde sed fugit
+        nobis odio architecto? Veniam facere sapiente tempora consequatur.
+      </p>
+    </header>
+    <section>
+      <div>
+        <h2><span>&#9759;</span> Titre secondaire de mon site avec photos</h2>
+        <img src="maPhoto.jpg" height="300" alt="c'est just ma photo quoi" />
+      </div>
+      <div>
+        <h3>Titre troisème et les listes</h3>
+        <ul>
+          <li>UL: Unordered list</li>
+          <li>UL: Unordered list</li>
+          <li>UL: Unordered list</li>
+        </ul>
+        <ol>
+          <li>OL: Ordered list</li>
+          <li>OL: Ordered list</li>
+          <li>OL: Ordered list</li>
+          <li>OL: Ordered list</li>
+          <li>OL: Ordered list</li>
+          <li>OL: Ordered list</li>
+        </ol>
+      </div>
+      <div>
+        <h4>Titre quatrième: les tableaux</h4>
+        <table border="1" width="50%">
+          <caption>
+            Populations d'europe
+          </caption>
+          <thead>
+            <tr>
+              <th>Pays</th>
+              <th>Population</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>France</td>
+              <td>60</td>
+            </tr>
+            <tr>
+              <td>Allemagne</td>
+              <td>70</td>
+            </tr>
+            <tr>
+              <td>Angleterre</td>
+              <td>80</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <h5><span>&#9758;</span> Titre Cinquième de mon site-ici les liens</h5>
+        <a href="https://htmlcheatsheet.com/" target="_blanck"
+          >Ceci est une html Cheat Sheet</a
+        >
+        <br />
+        <a href="toptal.com/designers/htmlarrows/arrows/" target="_blanck">
+          Lien vers Icones
+        </a>
+      </div>
+      <div>
+          <h6>Titre Sixième de mon site-ici les Vidéos</h6>
+          <video src="video.mp4" height="300" autoplay loop muted></video>
+      </div>
+    </section>
+
+    <br>
+
+    <section>
+      <h2>Formulaire</h2>
+      <form action="/action.php" method=""=post>
+      
+        <label for="name">nom</label>
+        <input id="name" 
+         type="text" placeholder="entrer votre nom">
+      
+        <label for="age">Age</label>
+        <input id="age" type="number" min="0" max="99"
+        step ="1" value="18"><br>
+
+        <label for="gender">Genre</label>
+        <select id="gender">
+          <option value="homme">Homme</option>
+          <option selected value="femme">Femme</option>
+        </select><br>
+
+        <div>
+          <input type="radio" name="type" id="human">
+          <label for="human">Humain</label>
+
+          <input type="radio" name="type" checked id="dog">
+          <label for="dog">Chien</label>
+
+          <input type="radio" name="type" id="cat">
+          <label for="cat">Chat</label>
+        </div>
+
+        <textarea cols="30" rows="10" 
+        placeholder="entrer votre demande ici"></textarea><br>
+    
+        <label><input type="checkbox"/>accepter les conditions</label>
+     
+      <input type="submit" value="Validez">
+
+      </form>
+    </section><br>
+    <footer>
+      <a href="mailto:spatiobot@gmail.com"> Ecrivez-moi! </a>
+    <br>
+    <a href="notice.txt"download="nom du fichier">Télécharger la notice</a>
+    </footer>
+  </body>
+</html>
